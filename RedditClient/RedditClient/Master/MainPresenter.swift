@@ -43,7 +43,11 @@ class RedditPresenter: MainPresenter {
     }
     
     func openDetail(with item: ChildData) {
-        
+        let redditDetailRouter = RedditDetailRouter.start()
+        let mainVC = view as! RedditViewController
+        let detailVC = (redditDetailRouter.entry)!
+        mainVC.present(detailVC, animated: true, completion: nil)
+        detailVC.update(with: item)
     }
 
     func interactorDidFetchReddits(with result: Result<Reddit, Error>) {
