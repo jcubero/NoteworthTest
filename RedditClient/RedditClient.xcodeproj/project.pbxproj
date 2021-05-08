@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		783A60762646FA92003C2656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60752646FA92003C2656 /* AppDelegate.swift */; };
 		783A60782646FA92003C2656 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60772646FA92003C2656 /* SceneDelegate.swift */; };
-		783A607A2646FA92003C2656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60792646FA92003C2656 /* ViewController.swift */; };
-		783A607D2646FA92003C2656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783A607B2646FA92003C2656 /* Main.storyboard */; };
 		783A607F2646FA96003C2656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783A607E2646FA96003C2656 /* Assets.xcassets */; };
 		783A60822646FA96003C2656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783A60802646FA96003C2656 /* LaunchScreen.storyboard */; };
+		783A60932646FBD2003C2656 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60922646FBD2003C2656 /* Extensions.swift */; };
+		783A60972646FBF1003C2656 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60962646FBF1003C2656 /* MainView.swift */; };
+		783A609A2646FC04003C2656 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60992646FC04003C2656 /* MainInteractor.swift */; };
+		783A609D2646FC1B003C2656 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A609C2646FC1B003C2656 /* MainPresenter.swift */; };
+		783A60A12646FC3B003C2656 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60A02646FC3B003C2656 /* MainRouter.swift */; };
+		783A60A42646FC4A003C2656 /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60A32646FC4A003C2656 /* MainEntity.swift */; };
+		783A60A72646FC5C003C2656 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60A62646FC5C003C2656 /* MainViewCell.swift */; };
+		783A60AA2646FC76003C2656 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60A92646FC76003C2656 /* DetailView.swift */; };
+		783A60AD2646FC88003C2656 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60AC2646FC88003C2656 /* DetailInteractor.swift */; };
+		783A60B02646FC99003C2656 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60AF2646FC99003C2656 /* DetailPresenter.swift */; };
+		783A60B32646FCAD003C2656 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A60B22646FCAD003C2656 /* DetailRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		783A60722646FA92003C2656 /* RedditClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		783A60752646FA92003C2656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		783A60772646FA92003C2656 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		783A60792646FA92003C2656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		783A607C2646FA92003C2656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		783A607E2646FA96003C2656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		783A60812646FA96003C2656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		783A60832646FA96003C2656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783A60922646FBD2003C2656 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		783A60962646FBF1003C2656 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		783A60992646FC04003C2656 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		783A609C2646FC1B003C2656 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		783A60A02646FC3B003C2656 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		783A60A32646FC4A003C2656 /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
+		783A60A62646FC5C003C2656 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		783A60A92646FC76003C2656 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		783A60AC2646FC88003C2656 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		783A60AF2646FC99003C2656 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		783A60B22646FCAD003C2656 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,56 @@
 		783A60742646FA92003C2656 /* RedditClient */ = {
 			isa = PBXGroup;
 			children = (
-				783A60752646FA92003C2656 /* AppDelegate.swift */,
-				783A60772646FA92003C2656 /* SceneDelegate.swift */,
-				783A60792646FA92003C2656 /* ViewController.swift */,
-				783A607B2646FA92003C2656 /* Main.storyboard */,
+				783A60912646FBAE003C2656 /* Detail */,
+				783A60902646FBA1003C2656 /* Master */,
+				783A608F2646FB95003C2656 /* Common */,
+				783A608C2646FB2E003C2656 /* App */,
 				783A607E2646FA96003C2656 /* Assets.xcassets */,
 				783A60802646FA96003C2656 /* LaunchScreen.storyboard */,
-				783A60832646FA96003C2656 /* Info.plist */,
 			);
 			path = RedditClient;
+			sourceTree = "<group>";
+		};
+		783A608C2646FB2E003C2656 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				783A60752646FA92003C2656 /* AppDelegate.swift */,
+				783A60772646FA92003C2656 /* SceneDelegate.swift */,
+				783A60832646FA96003C2656 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		783A608F2646FB95003C2656 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				783A60922646FBD2003C2656 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		783A60902646FBA1003C2656 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				783A60962646FBF1003C2656 /* MainView.swift */,
+				783A60992646FC04003C2656 /* MainInteractor.swift */,
+				783A609C2646FC1B003C2656 /* MainPresenter.swift */,
+				783A60A02646FC3B003C2656 /* MainRouter.swift */,
+				783A60A32646FC4A003C2656 /* MainEntity.swift */,
+				783A60A62646FC5C003C2656 /* MainViewCell.swift */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		783A60912646FBAE003C2656 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				783A60A92646FC76003C2656 /* DetailView.swift */,
+				783A60AC2646FC88003C2656 /* DetailInteractor.swift */,
+				783A60AF2646FC99003C2656 /* DetailPresenter.swift */,
+				783A60B22646FCAD003C2656 /* DetailRouter.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +185,6 @@
 			files = (
 				783A60822646FA96003C2656 /* LaunchScreen.storyboard in Resources */,
 				783A607F2646FA96003C2656 /* Assets.xcassets in Resources */,
-				783A607D2646FA92003C2656 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +195,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				783A607A2646FA92003C2656 /* ViewController.swift in Sources */,
+				783A60A72646FC5C003C2656 /* MainViewCell.swift in Sources */,
+				783A60AD2646FC88003C2656 /* DetailInteractor.swift in Sources */,
 				783A60762646FA92003C2656 /* AppDelegate.swift in Sources */,
+				783A60B32646FCAD003C2656 /* DetailRouter.swift in Sources */,
+				783A60A12646FC3B003C2656 /* MainRouter.swift in Sources */,
+				783A60AA2646FC76003C2656 /* DetailView.swift in Sources */,
+				783A609D2646FC1B003C2656 /* MainPresenter.swift in Sources */,
+				783A60972646FBF1003C2656 /* MainView.swift in Sources */,
+				783A60932646FBD2003C2656 /* Extensions.swift in Sources */,
+				783A60A42646FC4A003C2656 /* MainEntity.swift in Sources */,
+				783A609A2646FC04003C2656 /* MainInteractor.swift in Sources */,
 				783A60782646FA92003C2656 /* SceneDelegate.swift in Sources */,
+				783A60B02646FC99003C2656 /* DetailPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		783A607B2646FA92003C2656 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				783A607C2646FA92003C2656 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		783A60802646FA96003C2656 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3F92EFW89;
-				INFOPLIST_FILE = RedditClient/Info.plist;
+				INFOPLIST_FILE = RedditClient/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3F92EFW89;
-				INFOPLIST_FILE = RedditClient/Info.plist;
+				INFOPLIST_FILE = RedditClient/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
